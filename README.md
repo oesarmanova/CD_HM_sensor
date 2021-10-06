@@ -10,9 +10,10 @@ We used Shimadzu RF-6000 spectrofluorimeter to register excitation-emission matr
 # 1.Dataset
 
 We registered 1000 EEMs corresponding to CD's aqueous suspensions with one, two and three cation types Cu<sup>2+</sup>, Ni<sup>2+</sup>, Cr<sup>3+</sup>.
-![plot](https://github.com/oesarmanova/CD_HM_sensor/blob/main/Sample.png)
+![plot](https://github.com/oesarmanova/CD_HM_sensor/blob/main/sample_1.png)
+![plot](https://github.com/oesarmanova/CD_HM_sensor/blob/main/sample_3_comp.png)
 
-The Figure above shows EEM.
+The Figure above shows EEM. Up: CD suspension without cations. Down: CD suspension with three cations.
 
 Each row in the matrix represents a fluorescence spectra at particular excitation wavlengths and comprises 500 spectral channels. Each column in the matrix represents excitation spectra registered in a particular spectral channel and comprises 41 channels. Thus, initial data represents 2D arrays of (41x500) size.
 
