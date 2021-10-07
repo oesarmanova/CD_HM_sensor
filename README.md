@@ -20,3 +20,20 @@ Each row in the matrix represents a fluorescence spectra at particular excitatio
 The dataset comprises 27 single-component suspensions (i.e. suspensions, containing 1 cation type), 240 double-component suspensions (containing 2 cation types), and 732 triple-component suspensions. One sample corresponds to the case when all the cations are not present in the suspension.
 
 The dataset is present here https://github.com/oesarmanova/CD_HM_sensor/tree/main/CD_HM_dataset.
+
+# 2.Training Approaches
+
+Multilayer Perceptrons (MLP)
+
+| Approach  | Wavelength of FL Excitation | Sample size |
+| --- | --- | --- |
+| MLP_1W  | 350 nm  | (1x500) |
+| MLP_3W  | 250, 350, 450 nm  | (1x1500) |
+| MLP_41W  | 41 wavelengths in range 250 – 450 nm with 5 nm increment | (1x20500) |
+
+Convolutional neural networks (CNN)
+
+| Approach  | Number of channels | Sample size |
+| --- | --- | --- |
+| CNN_1D  | 41  | (41x1x500) |
+| CNN_2D  | 1  | (1x41x500) |
