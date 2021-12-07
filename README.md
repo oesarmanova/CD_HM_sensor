@@ -41,6 +41,9 @@ Convolutional neural networks (CNN)
 #3. Code files
 
 Run in Colab
+
 CD_HM_2D_CNN.ipnb - use to train 2D CNN
+
 CD_HM_1D_CNN.ipnb - use to train 1D CNN
+
 CD_HM_MLP.ipnb - use to train MLPs (MLP_1W, MLP_3W, MLP_41W)
