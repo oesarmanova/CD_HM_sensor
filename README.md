@@ -48,4 +48,4 @@ CD_HM_1D_CNN.ipnb - use to train 1D CNN
 
 CD_HM_MLP.ipnb - use to train MLPs (MLP_1W, MLP_3W, MLP_41W)
 
-Get_ststistics.ipnb - use to get statistics of the model performance
+Get_statistics.ipnb - use to get statistics of the model performance
