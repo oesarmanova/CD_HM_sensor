@@ -38,7 +38,7 @@ Convolutional neural networks (CNN)
 | CNN_1D  | 41  | (41x1x500) |
 | CNN_2D  | 1  | (1x41x500) |
 
-#3. Code files
+# 3.Code files
 
 Run in Colab
 
